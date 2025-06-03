@@ -62,6 +62,19 @@ This is the summary of the dataset that contain 818 rows with 84 columns. Only 7
 ![Figure1](https://github.com/JessicaCaishanghai/Predict_Concert_Fee_Ticketmaster/blob/main/images/group_average.png)
 
 
+### Average Price by States
+
+We can see how affordable to buy tickets across different states in United States.
+
+![Figure2](https://github.com/JessicaCaishanghai/Predict_Concert_Fee_Ticketmaster/blob/main/images/States.png)
+
+### Price trend 
+
+Knowing when to buy the tickets is important. This picture shows how the price will change when the events start tomorrow or 80 days later. 
+
+![Figure3](https://github.com/JessicaCaishanghai/Predict_Concert_Fee_Ticketmaster/blob/main/images/TimeSeries1.png)
+
+
 
 ## Results
 
