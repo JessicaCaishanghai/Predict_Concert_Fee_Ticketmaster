@@ -43,6 +43,21 @@ Given the nature of the dataset, which contains multiple categorical variables s
 
 ## Light EDA
 
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 818 entries, 0 to 817
+Data columns (total 7 columns):
+ #   Column                  Non-Null Count  Dtype  
+---  ------                  --------------  -----  
+ 0   CLASSIFICATION_SEGMENT  818 non-null    object 
+ 1   CLASSIFICATION_GENRE    812 non-null    object 
+ 2   HOT_EVENT               818 non-null    int64  
+ 3   VENUE_CITY              818 non-null    object 
+ 4   VENUE_STATE_CODE        818 non-null    object 
+ 5   time_to_start           815 non-null    float64
+ 6   time_since_start_sale   814 non-null    float64
+dtypes: float64(2), int64(1), object(4)
+memory usage: 44.9+ KB
+
 
 
 ## Results
