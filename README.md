@@ -44,3 +44,8 @@ Given the nature of the dataset, which contains multiple categorical variables s
 ## Light EDA
 
 
+
+## Results
+
+You can see the model in action via visiting the streamlit app. As a user, you can enter your favourite kind of events and all the dates that you are available by the slider. You can also choose where you intend to see the events: Los Angeles or New York. Those predictors help output the ticket price for the earliest available date, and it will later generate a visualization of the price in your available date range. To utilize this, you can look at [here](https://app-561457278990.us-west2.run.app). Moreover, if it isn't running anymore, you can choose to see my slides for final presentation. [presentation](https://github.com/JessicaCaishanghai/Predict_Concert_Fee_Ticketmaster/blob/main/slides/418Final%20Where%E2%80%99s%20the%20best%20seats_%20%20Predicting%20Concert%20Prices%20To%20Assist%20Decision%20(2).pdf).
+
