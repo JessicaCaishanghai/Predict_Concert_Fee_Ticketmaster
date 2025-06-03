@@ -59,7 +59,7 @@ This is the summary of the dataset that contain 818 rows with 84 columns. Only 7
 
 ### Average price by event segment
 
-![Figure1](https://github.com/JessicaCaishanghai/Predict_Concert_Fee_Ticketmaster/blob/main/images/group_average.png, "Figure1")
+![Figure1](https://github.com/JessicaCaishanghai/Predict_Concert_Fee_Ticketmaster/blob/main/images/group_average.png)
 
 
 
