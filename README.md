@@ -43,7 +43,7 @@ Given the nature of the dataset, which contains multiple categorical variables s
 
 ## Light EDA
 
-This is the summary of the dataset that contain 818 rows with 84 columns.
+This is the summary of the dataset that contain 818 rows with 84 columns. Only 7 columns were chosen to fit the model.
 
 | #   | Column                  | Non-Null Count | Dtype    |
 |-----|--------------------------|---------------|----------|
@@ -59,7 +59,7 @@ This is the summary of the dataset that contain 818 rows with 84 columns.
 
 ### Average price by event segment
 
-![alt text](https://github.com/JessicaCaishanghai/Predict_Concert_Fee_Ticketmaster/blob/main/images/group_average.png, "Figure1")
+![Figure1](https://github.com/JessicaCaishanghai/Predict_Concert_Fee_Ticketmaster/blob/main/images/group_average.png, "Figure1")
 
 
 
