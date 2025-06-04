@@ -13,20 +13,15 @@ Expected output:
 ```
 {"predict ticket price":91.64586428080075}
 ```
-## Structure
-
-There is a backend API, an interactive front end published through Google run using Streamlit and Flask framework. You can enter the events that you are interests in and get advice on when to buy the tickets. The **API** folder contains the codes to build the API and you have to manually deploy that on the Google Run in server.py and the model is stored in predict.py. The **APP** folder contains the frontend that includes using Streamlit to build the web and visualizations. The **EDA_and_Model** contains process to train the model and generate the light EDA as well as some explorations on the European Ticketmaster market. The **images** folder contain the EDA pictures, and the **slides** contains my slides for mid-term and final presentations if you need to see more details. 
 
 
 ## Background
 
-The Ticketmaster Ticket Price Prediction App is a web-based application designed to predict the price of event tickets using historical event data. It leverages a machine learning model trained on a variety of event features to help users decide the optimal time to purchase tickets.
-
-The data utilized was obtained via Ticketmaster API and selenium.
+The Ticketmaster Ticket Price Prediction App is **a web-based application** designed to predict the price of event tickets using historical event data. It leverages a machine learning model trained on a variety of event features to help users decide the optimal time to purchase tickets. The data utilized was obtained via Ticketmaster API and selenium.
 
 The dataset used for training includes the following features:
 
-Classification Segment: The broad category of the event, such as Arts & Theatre, Sports, Music, or Miscellaneous.
+**Classification Segment**: The broad category of the event, such as Arts & Theatre, Sports, Music, or Miscellaneous.
 
 Classification Genre: A more specific sub-category based on the segment (e.g., Fine Art under Arts & Theatre).
 
@@ -44,11 +39,27 @@ Catboosting was used to fit the model. Catboost regressor is especially utilized
 
 Given the nature of the dataset, which contains multiple categorical variables such as event segment, genre, venue city, and state code, CatBoost’s native handling of categorical features allowed for an efficient and accurate modeling process without the need for extensive feature engineering like one-hot encoding.
 
+### ✨Model Details
+
+The feature importance of this catboosting model. 
+
+| Feature                   | Importance   |
+|----------------------------|--------------|
+| time_since_start_sale      | 34.390829    |
+| CLASSIFICATION_SEGMENT     | 17.299283    |
+| CLASSIFICATION_GENRE       | 14.636876    |
+| time_to_start              | 14.476071    |
+| VENUE_STATE_CODE           | 12.818305    |
+| VENUE_CITY                 | 4.824313     |
+| HOT_EVENT                  | 1.554324     |
+
 
 ### 📈 Model Performance
 
 - **Mean Squared Error (MSE)**: 2849.67
 - **R-squared (R²)**: 0.5340
+
+
 
 
 ## Light EDA
@@ -89,4 +100,18 @@ Knowing when to buy the tickets is important. This picture shows how the price w
 ## Results
 
 You can see the model in action via visiting the streamlit app. As a user, you can enter your favourite kind of events and all the dates that you are available by the slider. You can also choose where you intend to see the events: Los Angeles or New York. Those predictors help output the ticket price for the earliest available date, and it will later generate a visualization of the price in your available date range. To utilize this, you can look at [here](https://app-561457278990.us-west2.run.app). Moreover, if it isn't running anymore, you can choose to see my slides for final presentation. [presentation](https://github.com/JessicaCaishanghai/Predict_Concert_Fee_Ticketmaster/blob/main/slides/418Final%20Where%E2%80%99s%20the%20best%20seats_%20%20Predicting%20Concert%20Prices%20To%20Assist%20Decision%20(2).pdf).
+
+
+
+
+## Structure
+
+There is a backend API, an interactive front end published through Google run using Streamlit and Flask framework. 
+The **API** folder: Building API and Predictive Model like `server.py` and `predict.py`.
+The **APP** folder: Building APP interface using Streamlit. 
+The **EDA_and_Model**: Process of model training and light EDA. Some explorations on the European Ticketmaster market. 
+The **images** folder: EDA pictures.
+The **slides**: Slides for presentations.
+
+
 
