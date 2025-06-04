@@ -1,6 +1,6 @@
 # Predict_Concert_Fee_Ticketmaster
 
-This is a project to predict whether concert tickets price is good using Ticketmaster API, Selenium and flask.
+This is a project to predict whether concert tickets price is good using Ticketmaster API, Selenium and flask. There is a backend API, an interactive front end published through Google run using Streamlit and Flask framework. You can enter the events that you are interests in and get advice on when to buy the tickets. 
 
 You can access the Streamlit app hosted on Google Cloud Run [here](https://app-561457278990.us-west2.run.app)
 
@@ -40,6 +40,14 @@ Time to Start: The number of days remaining until the event starts.
 Catboosting was used to fit the model. Catboost regressor is especially utilized. 
 
 Given the nature of the dataset, which contains multiple categorical variables such as event segment, genre, venue city, and state code, CatBoost’s native handling of categorical features allowed for an efficient and accurate modeling process without the need for extensive feature engineering like one-hot encoding.
+
+### Model Performance
+
+### 📈 Model Performance
+
+- **Mean Squared Error (MSE)**: 2849.67
+- **R-squared (R²)**: 0.5340
+
 
 ## Light EDA
 
