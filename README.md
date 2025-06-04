@@ -1,6 +1,6 @@
 # Predict_Concert_Fee_Ticketmaster
 
-This is a project to predict whether concert tickets price is good using Ticketmaster API, Selenium and flask. There is a backend API, an interactive front end published through Google run using Streamlit and Flask framework. You can enter the events that you are interests in and get advice on when to buy the tickets. 
+This is a project to predict whether concert tickets price is good using Ticketmaster API, Selenium and flask. 
 
 You can access the Streamlit app hosted on Google Cloud Run [here](https://app-561457278990.us-west2.run.app)
 
@@ -13,6 +13,9 @@ Expected output:
 ```
 {"predict ticket price":91.64586428080075}
 ```
+## Structure
+
+There is a backend API, an interactive front end published through Google run using Streamlit and Flask framework. You can enter the events that you are interests in and get advice on when to buy the tickets. The **API** folder contains the codes to build the API and you have to manually deploy that on the Google Run in server.py and the model is stored in predict.py. The **APP** folder contains the frontend that includes using Streamlit to build the web and visualizations. The **EDA_and_Model** contains process to train the model and generate the light EDA as well as some explorations on the European Ticketmaster market. The **images** folder contain the EDA pictures, and the **slides** contains my slides for mid-term and final presentations if you need to see more details. 
 
 
 ## Background
@@ -41,7 +44,6 @@ Catboosting was used to fit the model. Catboost regressor is especially utilized
 
 Given the nature of the dataset, which contains multiple categorical variables such as event segment, genre, venue city, and state code, CatBoost’s native handling of categorical features allowed for an efficient and accurate modeling process without the need for extensive feature engineering like one-hot encoding.
 
-### Model Performance
 
 ### 📈 Model Performance
 
