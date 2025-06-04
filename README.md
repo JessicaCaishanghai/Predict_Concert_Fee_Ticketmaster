@@ -91,7 +91,7 @@ We can see how affordable to buy tickets across different states in United State
 
 ### Price trend 
 
-Knowing when to buy the tickets is important. This picture shows how the price will change when the events start tomorrow or 80 days later. 
+Knowing when to buy the tickets is important. This picture shows how the ticket price of a hot pop music concert in Los Angeles will change when the events start tomorrow or 80 days later.
 
 ![Figure3](https://github.com/JessicaCaishanghai/Predict_Concert_Fee_Ticketmaster/blob/main/images/TimeSeries1.png)
 
