@@ -17,11 +17,11 @@ Expected output:
 ## Structure
 
 There is a backend API, an interactive front end published through Google run using Streamlit and Flask framework. 
-The **API** folder: Building API and Predictive Model like `server.py` and `predict.py`.
-The **APP** folder: Building APP interface using Streamlit. 
-The **EDA_and_Model**: Process of model training and light EDA. Some explorations on the European Ticketmaster market. 
-The **images** folder: EDA pictures.
-The **slides**: Slides for presentations.
+- **API** folder: Building API and Predictive Model like `server.py` and `predict.py`.
+- **APP** folder: Building APP interface using Streamlit. 
+- **EDA_and_Model**: Process of model training and light EDA. Some explorations on the European Ticketmaster market. 
+- **images** folder: EDA pictures.
+- **slides**: Slides for presentations.
 
 
 
