@@ -1,4 +1,4 @@
-# Predict_Concert_Fee_Ticketmaster
+# Predict_Ticket_Price_Based_On_Ticketmaster
 
 This is a project to predict whether concert tickets price is good using Ticketmaster API, Selenium and flask. 
 
@@ -19,7 +19,10 @@ Expected output:
 
 The Ticketmaster Ticket Price Prediction App is **a web-based application** designed to predict the price of event tickets using historical event data. It leverages a machine learning model trained on a variety of event features to help users decide the optimal time to purchase tickets. The data utilized was obtained via Ticketmaster API and selenium.
 
-The dataset used for training includes the following features:
+### The dataset 
+
+The dataset is obtained by Selenium. I asked for a developer API, but the sensitive information like prices have already been removed. It has 819 rows. I truncated some features, and kept some key features regarding the price of the events to train the model.
+The training dataset includes the following features:
 
 **Classification Segment**: The broad category of the event, such as Arts & Theatre, Sports, Music, or Miscellaneous.
 
@@ -32,6 +35,7 @@ Venue City: The city where the event takes place.
 Venue State Code: The two-letter state code of the venue's location.
 
 Time to Start: The number of days remaining until the event starts.
+
 
 ## Methodology
 
