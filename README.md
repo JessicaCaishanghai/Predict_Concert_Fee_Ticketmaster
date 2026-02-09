@@ -2,7 +2,7 @@
 
 This is a project to predict whether concert tickets price is good using Ticketmaster API, Selenium and flask. 
 
-You can access the Streamlit app hosted on Google Cloud Run [here](https://app-561457278990.us-west2.run.app)
+You can access the Streamlit app hosted on Google Cloud Run [here]([https://app-561457278990.us-west2.run.app](https://appv2-561457278990.us-west2.run.app/))
 
 
 Test input for terminal:
