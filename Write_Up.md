@@ -21,7 +21,7 @@ The Ticketmaster Ticket Price Prediction App is **a web-based application** desi
 
 ### The dataset 
 
-The dataset is obtained by Selenium. I asked for a developer API, but the sensitive information like prices have already been removed. It has 819 rows. I truncated some features, and kept some key features regarding the price of the events to train the model.
+The dataset is obtained by Selenium. I asked for a developer API, but the sensitive information like prices have already been removed. It has 819 rows. I truncated some features, and kept some key features regarding the price of the events to train the model. You can find the training dataset [here](https://github.com/JessicaCaishanghai/Predict_Concert_Fee_Ticketmaster/blob/main/API/result.csv)
 The training dataset includes the following features:
 
 **Classification Segment**: The broad category of the event, such as Arts & Theatre, Sports, Music, or Miscellaneous.
