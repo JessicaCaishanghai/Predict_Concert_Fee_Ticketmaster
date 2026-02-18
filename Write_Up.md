@@ -49,7 +49,7 @@ Ticket price and other features like venue cities are having non-linear relation
 
 CatBoost uses a sophisticated method called "Ordered Target Statistics" to convert categorical values into numerical features. It calculates the mean target value for a category based on the data points observed before it in a random permutation.
 
-Other models to consider include: \textbf{Random Forest}, \textbf{LightGBM (Light Gradient Boosting Machine)} that can handle non-linear relationship within many categories. 
+Other models to consider include: **Random Forest**, **{LightGBM (Light Gradient Boosting Machine)}** that can handle non-linear relationship within many categories. 
 
 
 
@@ -72,6 +72,11 @@ The feature importance of this catboosting model.
 
 - **Mean Squared Error (MSE)**: 2849.67
 - **R-squared (R²)**: 0.5340
+
+
+$$MSE = \frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2$$ 
+
+CatBoost uses the gradient of the MSE to determine how to build the next tree. Since the derivative of $(y_i - \hat{y}_i)^2$ with respect to the prediction is proportional to $2(y_i - \hat{y}_i)$, the model is essentially trying to fit the residuals (the errors) of the previous trees
 
 
 
