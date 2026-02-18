@@ -43,6 +43,16 @@ Catboosting was used to fit the model. Catboost regressor is especially utilized
 
 Given the nature of the dataset, which contains multiple categorical variables such as event segment, genre, venue city, and state code, CatBoost’s native handling of categorical features allowed for an efficient and accurate modeling process without the need for extensive feature engineering like one-hot encoding.
 
+### Why Catboosting?
+
+Ticket price and other features like venue cities are having non-linear relationship, and boosting will be the best best to train sequentially. In traditional models, categorical data like venue_city must be pre-processed using One-Hot Encoding (which creates high-dimensional, sparse matrices) or Label Encoding (which can introduce false ordinality).
+
+CatBoost uses a sophisticated method called "Ordered Target Statistics" to convert categorical values into numerical features. It calculates the mean target value for a category based on the data points observed before it in a random permutation.
+
+Other models to consider include: \textbf{Random Forest}, \textbf{LightGBM (Light Gradient Boosting Machine)} that can handle non-linear relationship within many categories. 
+
+
+
 ### ✨Model Details
 
 The feature importance of this catboosting model. 
